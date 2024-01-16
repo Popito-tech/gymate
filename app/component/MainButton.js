@@ -9,6 +9,7 @@ function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
     });
   };
   return (
+    <Link href={goTo}>
     <div
         // onClick={goTop}
         // href={goTo}
@@ -17,6 +18,7 @@ function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
       {text} &nbsp;
       <i className={`fa-solid fa-arrow-right text-[#FF0336] ${arrowColor}`}></i>
     </div>
+    </Link>
   );
 }
 

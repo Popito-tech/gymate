@@ -89,7 +89,7 @@ function ChooseUs() {
             arrowColor={`!text-white`}
             cN="choose-cta"
             hover={`hover:bg-[#ff0336]`}
-            goTo="/classes"
+            goTo="/pages/classes"
           />
         </div>
       </div>

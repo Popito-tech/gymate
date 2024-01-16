@@ -240,9 +240,7 @@ function Navbar() {
               className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
             ></i></div>
             {/* account */}
-            <Link href='/'>
-              <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"></i>
-            </Link>
+
             {/* sidebar */}
             <i
               onClick={sideBar}

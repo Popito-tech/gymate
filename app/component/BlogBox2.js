@@ -23,6 +23,7 @@ function BlogBox2({ img, title }) {
       text="purchase now"
       arrowColor={`!text-white`}
       cN="pricing-cta blog-cta"
+      goTo=''
     />
   </div>
   )

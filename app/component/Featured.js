@@ -97,7 +97,7 @@ function Featured() {
               bg={`bg-white`}
               text="Join With Us"
               arrowColor={`text-black`}
-              goTo="/contact"
+              goTo="/pages/contact"
             />
           </div>
         </div>

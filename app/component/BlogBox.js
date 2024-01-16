@@ -19,6 +19,7 @@ function BlogBox({ date, title, description }) {
     {/* desc */}
     <p className="text-[15px] text-[#646464] font-medium">{description}</p>
     {/* blog cta */}
+    <Link href='/pages/blog'>
     <div
     //   to="/blog"
     //   onClick={goTop}
@@ -26,6 +27,7 @@ function BlogBox({ date, title, description }) {
     >
       Read more &nbsp; <i className="fa-solid fa-arrow-right"></i>
     </div>
+    </Link>
   </div>
   )
 }

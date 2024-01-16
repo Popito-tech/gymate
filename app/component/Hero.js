@@ -31,7 +31,7 @@ function Hero() {
               color={`text-black`}
               bg={`bg-white`}
               text="our classes"
-              goTo="/classes"
+              goTo="/pages/classes"
             />
           </div>
         </div>

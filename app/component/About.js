@@ -79,7 +79,7 @@ function About() {
                 arrowColor={`!text-white`}
                 hover={`hover:bg-[#FF0336]`}
                 text="take a tour"
-                goTo="/classes"
+                goTo="/pages/classes"
               />
             </div>
             {/* img side */}

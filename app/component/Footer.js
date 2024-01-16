@@ -33,17 +33,6 @@ function Footer() {
               className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
             ></i>
           </div>
-          <p className="text-[16px] font-medium text-[#646464]">
-            Privacy Policy | © {new Date().getFullYear()} Gymate <br />{" "}
-            Design by{" "}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.radiustheme.com/"
-            >
-              RadiusTheme
-            </a>
-          </p>
         </div>
 
         {/* middle div */}

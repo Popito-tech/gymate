@@ -40,7 +40,7 @@ function page() {
               <MainButton
                 color={`!text-white`}
                 bg={`bg-[#ff0336]`}
-                goTo="/contact"
+                goTo="/pages/contact"
                 text="contact us"
                 arrowColor={`!text-white`}
                 cN="pricing-cta blog-cta"
